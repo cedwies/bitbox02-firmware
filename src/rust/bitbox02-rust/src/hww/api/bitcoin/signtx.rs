@@ -5,7 +5,7 @@ use super::pb;
 use crate::hal::ui::{ConfirmParams, Progress};
 
 use super::common::format_amount;
-use super::payment_request;
+use super::super::payment_request;
 use super::policies::TaprootSpendInfo;
 use super::script_configs::{ValidatedScriptConfig, ValidatedScriptConfigWithKeypath};
 use super::{bip143, bip341, common, keypath};
